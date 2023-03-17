@@ -5,11 +5,35 @@
 
 ## Usage
 
+User Story:
+
+AS A manager at an internet retail company, 
+I WANT a back end for my e-commerce website that uses the latest technologies, 
+SO THAT my company can compete with other e-commerce companies.
+
+
 ## Installation
 
-## Visuals
+Directions if debugging or contributing:
 
-## Credits
+mysql -u root -p
+> source db/schema.sql
+
+> exit
+
+npm i
+
+node seeds/index.js
+
+npm start
+
+## Visuals
+None yet.
+
+## Credits & Support
+Thank you David Love @Cyril1743 https://github.com/Cyril1743 for being a sounding board while going through this project and bootcamp!
+
+If there are issues with the site, please reach out to me, Jennifer Engle, at j.engle.dev@gmail.com and reference the site's URL. Please provide any screenshots and behavior along with your browser information.
 
 ## References
 * https://www.npmjs.com/package/validator
@@ -18,4 +42,4 @@
 * Class Activity 28 - Mini Project Solution Files
 
 ## Project Status
-In progress.
+In progress. I know all of my routes are not working. I have been able to get a few errors and am trying to work through those. 
