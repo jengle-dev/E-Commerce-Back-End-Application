@@ -43,3 +43,6 @@ If there are issues with the site, please reach out to me, Jennifer Engle, at j.
 
 ## Project Status
 In progress. I know all of my routes are not working. I have been able to get a few errors and am trying to work through those. 
+Here's a POST I was attempting to work through right before README updates and submission for class for initial grading.
+
+![image](https://user-images.githubusercontent.com/117794203/225803334-14fd3412-6d99-4086-b685-1d383c198198.png)
