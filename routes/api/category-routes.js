@@ -47,19 +47,19 @@ router.post('/', async (req, res) => {
   }
 });
 
+//review activity 5 from module 13 in the routes there's an API folder with book-routes.js
+//don't need these routes to be async functions
 router.put('/:id', async (req, res) => {
   // update a category by its `id` value
   try {
     const categoryData = await Category.update(req.body);
     res.status(200).json(categoryData);
-  }
-});
-
-  if (!categoryData) {
-    res.status(404).json({ message: 'No category found or updated with this id!' });
+  } catch (err) {
+  //need a catch but can be a catch after the if statement below
+  res.status(404).json({ message: 'No category found or updated with this id!' });
     return;
     }
-  
+});
 
 router.delete('/:id', async (req, res) => {
   // delete a category by its `id` value
